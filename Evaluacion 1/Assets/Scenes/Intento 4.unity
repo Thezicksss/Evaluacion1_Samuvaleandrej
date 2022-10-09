@@ -840,7 +840,7 @@ GameObject:
   - component: {fileID: 1486195988}
   - component: {fileID: 1486195989}
   m_Layer: 0
-  m_Name: Map
+  m_Name: TileMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -876,14 +876,14 @@ MonoBehaviour:
   selectedUnit: {fileID: 681231024}
   tileTypes:
   - name: Grass
+    isWalkable: 1
+    costToMove: 1
     tileVisualPrefab: {fileID: 7121511146385287583, guid: 35b513ca3d728de46958bffc446ceeca, type: 3}
-    isWalkable: 1
-    movementCost: 1
   - name: Mountain
-    tileVisualPrefab: {fileID: 2921282691717446413, guid: 298eda1e5cbfee342906b9d2ff9ef86c, type: 3}
     isWalkable: 0
-    movementCost: 1
+    costToMove: 1
+    tileVisualPrefab: {fileID: 2921282691717446413, guid: 298eda1e5cbfee342906b9d2ff9ef86c, type: 3}
   - name: Water
-    tileVisualPrefab: {fileID: 8139810348836213184, guid: bc5eed509186c2049b7cf3a858b31ca1, type: 3}
     isWalkable: 1
-    movementCost: 4
+    costToMove: 4
+    tileVisualPrefab: {fileID: 8139810348836213184, guid: bc5eed509186c2049b7cf3a858b31ca1, type: 3}

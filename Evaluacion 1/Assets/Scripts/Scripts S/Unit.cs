@@ -6,6 +6,7 @@ public class Unit : MonoBehaviour
 	public int tileX;
 	public int tileY;
 	public TileMap map;
+	[SerializeField]
 	int moveSpeed = 4;
 	float remainingMovement = 3;
 	float movement = 3;

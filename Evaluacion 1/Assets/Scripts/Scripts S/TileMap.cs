@@ -5,6 +5,7 @@ using System.Linq;
 public class TileMap : MonoBehaviour 
 {
 	public GameObject selectedUnit;
+
 	public TileType[] tileTypes;
 
 	int mapSizeX = 20;
